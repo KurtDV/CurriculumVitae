@@ -1,0 +1,4 @@
+#Wed Nov 02 00:50:21 PDT 2022
+base.0=C\:\\4th Year 1st SEM - KZDV\\Curriculum Vitae - Flutter\\curriculum_vitae\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
