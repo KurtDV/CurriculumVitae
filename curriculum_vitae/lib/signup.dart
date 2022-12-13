@@ -88,9 +88,9 @@ class _ThirdRouteState extends State<ThirdRoute> {
                               border: OutlineInputBorder()),
                               autovalidateMode: AutovalidateMode.onUserInteraction,
                           validator: (value) {
-                            if(value!.isEmpty || value.length <=2){
+                            if(value!.isEmpty){
                               return "Please enter your full name";
-                            } else if (!RegExp(r'^[a-z A-Z]+$').hasMatch(value)) {
+                            } else if (!RegExp(r'^[a-z A-Z]+$').hasMatch(value) || value.length <=2) {
                               return "Please enter your real name";
                             }
                             return null;
